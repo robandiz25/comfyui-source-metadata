@@ -1,5 +1,14 @@
 # ComfyUI Source Metadata
 
+> **This repo has moved.** It's now part of **[Bert's Tools](https://github.com/robandiz25/comfyui-berts-tools)**, together with my other ComfyUI nodes. This repo is archived and won't get updates.
+>
+> Node IDs are unchanged, so existing workflows keep working. Delete this folder from `custom_nodes`, then install Bert's Tools:
+>
+> ```
+> cd ComfyUI/custom_nodes
+> git clone https://github.com/robandiz25/comfyui-berts-tools.git
+> ```
+
 Keep the original generation metadata when you detail or upscale an image in ComfyUI.
 
 A detailer → upscale workflow normally saves its output with *its own* workflow embedded, so the
